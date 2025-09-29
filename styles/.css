@@ -1,0 +1,156 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100vh;
+}
+
+body {
+    background-image: url("../images/Krümel2.png");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center right;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 0;
+}
+
+.header {
+    padding: 24px;
+}
+
+.header-title {
+    min-height: 50px;
+    text-align: center;
+}
+
+.header-title img {
+    height: auto;
+    width: 40%;
+}
+
+.description-container {
+    backdrop-filter: blur(8px);
+    border-radius: 12px;
+    height: auto;
+    padding: 16px;
+    width: 100%;
+}
+
+.description-title {
+    color: rgb(35, 55, 191);
+    font-size: calc(1rem + 2vh);
+    margin: 0;
+    text-align: center;
+}
+
+.description-main {
+    color: whitesmoke;
+    text-align: center;
+}
+
+.main {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    padding: 24px;
+}
+
+.cookies {
+    border-radius: 12px;
+    min-height: 250px;
+    padding: 8px;
+}
+
+.cookies img {
+    border-radius: 10px;
+    display: block;
+    height: auto;
+    margin: auto;
+    margin-bottom: 8px;
+    width: 80%;
+}
+
+.container-blur {
+    backdrop-filter: blur(8px);
+    border-radius: 12px;
+    padding: 8px;
+}
+
+.cookie-title {
+    color: rgb(35, 55, 191);
+    margin: 8px;
+    text-align: center;
+}
+
+.cookie-description {
+    color: whitesmoke;
+    margin-top: 0;
+    text-align: center;
+}
+
+.footer {
+    background-color: rgb(35, 55, 191);
+    color: whitesmoke;
+    padding: 16px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 769px) {
+
+    body {
+        background-image: url("../images/back-ground2.png");
+        background-position: center center;
+        background-size: cover;
+        margin: 0;
+    }
+
+    .header {
+        display: flex;
+        justify-content: center;
+        padding: 24px;
+    }
+
+    .header-title img {
+        width: 55%;
+        height: auto;
+    }
+
+    .main {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .cookies {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        max-width: 50%;
+    
+    }
+
+    .cookies img {
+        border-radius: 10px;
+        height: auto;
+        margin: auto;
+        margin-bottom: 8px;
+        width: 50%;
+    }
+
+    .footer {
+        background-color: transparent;
+    }
+}
