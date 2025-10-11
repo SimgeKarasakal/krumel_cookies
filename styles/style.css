@@ -47,6 +47,8 @@ body {
   text-decoration: none;
   transition: background-color 0.3s ease;
   text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  letter-spacing: 0.2px;
 }
 
 .menu-item:hover {
@@ -63,6 +65,9 @@ body {
   display: flex;
   flex-direction: column;
   flex-grow: 1;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  letter-spacing: 0.2px;
+  line-height: 1.6;
   padding: 24px;
 }
 
