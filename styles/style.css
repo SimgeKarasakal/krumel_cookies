@@ -82,7 +82,7 @@ body {
 }
 
 .description-main {
-  color: whitesmoke;
+  color: white;
   text-align: center;
 }
 
@@ -102,7 +102,7 @@ body {
 }
 
 .container-blur {
-  backdrop-filter: blur(8px);
+  backdrop-filter: blur(9px);
   border-radius: 12px;
   padding: 8px;
 }
@@ -114,7 +114,7 @@ body {
 }
 
 .cookie-description {
-  color: whitesmoke;
+  color: white;
   margin-top: 0;
   text-align: center;
 }
@@ -135,6 +135,16 @@ body {
     margin: 0;
   }
 
+  .description-title {
+    color: rgba(245, 245, 245, 0.855);
+    font-size: 3rem;
+  }
+
+  .description-main {
+    color: whitesmoke;
+    text-align: center;
+  }
+
   .header {
     display: flex;
     justify-content: center;
@@ -151,6 +161,13 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
+  }
+
+  .container-blur {
+    backdrop-filter: blur(9px);
+    border-radius: 12px;
+    max-width: 70%;
+    padding: 12px;
   }
 
   .description-container {
