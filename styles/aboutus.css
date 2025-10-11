@@ -1,15 +1,15 @@
 .main .description-container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 32px;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 32px;
 }
 
 @media screen and (min-width: 769px) {
-    .main {
-        padding: 48px 24px;
-    }
+  .main {
+    padding: 48px 24px;
+  }
 
-    .main .description-container {
-        padding: 48px;
-    }
+  .main .description-container {
+    padding: 48px;
+  }
 }

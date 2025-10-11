@@ -86,8 +86,6 @@ body {
   text-align: center;
 }
 
-
-
 .cookies {
   border-radius: 12px;
   min-height: 250px;
@@ -127,9 +125,6 @@ body {
   padding: 16px;
   text-align: center;
 }
-
-
-
 
 @media screen and (min-width: 769px) {
 

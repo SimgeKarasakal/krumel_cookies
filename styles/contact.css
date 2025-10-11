@@ -1,37 +1,37 @@
 .main .description-container {
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 32px;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 32px;
 }
 
 .contact-info {
-    margin-top: 32px;
-    padding: 24px;
-    background-color: rgba(35, 55, 191, 0.1);
-    border-radius: 12px;
-    border: 2px solid rgba(35, 55, 191, 0.3);
+  margin-top: 32px;
+  padding: 24px;
+  background-color: rgba(35, 55, 191, 0.1);
+  border-radius: 12px;
+  border: 2px solid rgba(35, 55, 191, 0.3);
 }
 
 .contact-info p {
-    margin: 12px 0;
-    font-size: 1.1rem;
+  margin: 12px 0;
+  font-size: 1.1rem;
 }
 
 .contact-info strong {
-    color: rgb(35, 55, 191);
-    font-weight: bold;
+  color: rgb(35, 55, 191);
+  font-weight: bold;
 }
 
 @media screen and (min-width: 769px) {
-    .main {
-        padding: 48px 24px;
-    }
+  .main {
+    padding: 48px 24px;
+  }
 
-    .main .description-container {
-        padding: 48px;
-    }
+  .main .description-container {
+    padding: 48px;
+  }
 
-    .contact-info {
-        padding: 32px;
-    }
+  .contact-info {
+    padding: 32px;
+  }
 }
