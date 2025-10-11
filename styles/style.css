@@ -137,6 +137,7 @@ body {
   body {
     background-image: url("../images/back-ground2.png");
     background-position: center center;
+    background-attachment: scroll;
     background-size: cover;
     margin: 0;
   }
